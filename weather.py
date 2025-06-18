@@ -92,5 +92,5 @@ Forecast: {period['detailedForecast']}
     return "\n---\n".join(forecasts)
 
 if __name__ == "__main__":
-    
+    print('start running')
     mcp.run(transport='stdio')  
