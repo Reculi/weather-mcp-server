@@ -1,8 +1,0 @@
-version: 1
-runtime: "container"
-build:
-  dockerfile: "Dockerfile"           # Path to your Dockerfile
-  dockerBuildPath: "."               # Docker build context
-start:
-  command: ["python", "weather.py"]
-  port: 8000
